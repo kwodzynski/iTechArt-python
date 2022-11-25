@@ -7,7 +7,12 @@ Contains:
 - this readme.ms file
 
 ## Prerequsitories
-- The script does not require to install the additional libraries
+- The script ```TextParsing``` does not require to install the additional libraries, but
+- The script ```ImageProcessing``` requires install ```Pillow```. You can install that package in terminal using:
+```
+python3 -m pip install --upgrade pip
+python3 -m pip install --upgrade Pillow
+```
 - The script has been written in Python 3, so it does require Python in 3.x version installed
 ## Usage
 To run the script:
@@ -15,6 +20,6 @@ To run the script:
 2. Use the default one which is placed in the file
 3. Open the terminal and type:
 ```
-python {path_to_iTechArt-python_project}/ParsingTextMethods/TextParsing.py
+python {path_to_iTechArt-python_project}/ParsingTextMethods/ImageProcessing.py
 ```
 - if you use python 2.x and 3.x versions in parralel please use ```python3``` command instead 
